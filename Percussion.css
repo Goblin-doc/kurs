@@ -1,0 +1,293 @@
+.body{
+ width: 100%;
+ height: 100%;
+ background-image: url("image/background.jpg");
+}
+
+#block-body{
+    width: 1035px ;
+    margin: 0px auto;
+    height: auto;
+}
+
+header{
+    width: 1035px;
+    height: 80px;
+    background-color: black;
+}
+.logo{
+    width: 150px;
+    height: 80px;
+}
+
+.music{
+    height: 35px;
+    width: 35px;
+    margin-left: 43px;
+    margin-top: 10px;
+}
+.Albert{
+    padding-top: 5px;
+    padding-left: 40px;
+    color:red;
+    }
+
+.Home{
+    margin-top: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-decoration: none !important;
+    color: white ;
+}
+.Assortiments{
+    margin-top: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-decoration: none !important;
+    color: white ;
+}
+.Recommendations{
+    margin-top: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-decoration: none !important;
+    color: white ;
+}
+.Footer{
+    margin-top: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-decoration: none !important;
+    color: white ;
+
+}
+.Piano{
+    margin-top: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    text-decoration: none !important;
+    color: white ;
+}
+main{
+    width: 1035px;
+    height: 1250px;
+    background-image: url(image/recom.png);
+    border-top: 3px solid red;
+
+}
+.baraban{
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 80px;
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    background-image: url(image/bar.png);
+}
+.baraban_img1{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.baraban1_text{
+    color: white;
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.baraban_title{
+    margin-left: 4.0rem !important;
+}
+ .baraban_subtitle1{
+ front-size: 15% !important;
+ }
+
+.baraban_subtitle{
+ margin-left:12.0rem !important;
+}
+.btn {
+    margin-left: 13.0rem !important;
+}
+.footer{
+    width: 1035px;
+    height: 80px;
+    background-color: black;
+
+}
+.container3{
+    width: 100%;
+    max-width: 1035px;
+    height: 80px;
+    border-top: 3px solid red;
+}
+.footer_text{
+    display:inline;
+}
+.rights{
+    font-size:100%;
+    color: white;
+    text-align: center; 
+    padding-top: 15px;
+    margin-top: 0;
+    margin-bottom:0;
+    float: right;
+    margin-right: 50px; 
+}
+.social{
+    margin-left: 20px;
+    float:left;
+    width: 50;
+}
+.social img{
+    margin-top:0.5rem !important;
+    width: 50px;
+    height: 50px;
+}
+.piano {
+ width: 700px;
+ height: 400px;
+ margin:50px auto;
+ display:flex;
+}
+.key {
+ width: 100px;
+ height: 100%;
+ border:2px solid #000;
+ border-radius: 0 0 5px 5px;
+ cursor: pointer;
+ box-shadow: inset -2px -2px 5px #000;
+ text-align: center;
+ font-size: 40px;
+ font-family: sans-serif;
+ font-weight: bold;
+ background: #fff;
+ user-select: none;
+ transition: .1s;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+}
+.key-b {
+ width: 70px;
+ background: #000;
+ font-size: 30px;
+ color:#fff;
+ height: 60%;
+ margin-left: -35px;
+ margin-right: -35px;
+ z-index: 2;
+}
+.key.active {
+ background: #ccc;
+}
+.key-b.active {
+ background: #333;
+}
+
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    margin-right: 100px;
+    z-index: 1000;
+}
+.popup:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content{
+    background: grey;
+    max-width: 800px;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+.popup_close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.container_form{
+    width: 800px;
+    height: 400px;
+    text-align: center;
+}
+.popup2{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.8s ease 0s;
+    z-index: 1000;
+}
+.popup2:target{
+    opacity: 1;
+    visibility: visible;
+}
+.popup_body2{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup_content2{
+    background-image: url("image/bar.png");
+    max-width: 800px;
+    position: relative;
+    box-shadow: 0 -5px 0 red;
+    border-radius: 0 0 10px 10px;
+}
+
+.container_form2{
+    padding-top: 20px;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+}
+input[type="text"],input[type="phone"],input[type="city"],input[type="address"]{
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    margin-bottom:25px;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.submit{
+    padding: 13px 30px;
+    margin: 5px 0 20px 0;
+    font-size: 15px;
+    background-color: blue;
+    border: none;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.submit:hover{
+    transition:all 0.5s ;
+    background: #fff;
+    color: #2c536c;
+}

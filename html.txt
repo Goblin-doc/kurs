@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+  <html> 
+    <head>
+  	     <meta charset="utf-8">
+  	     <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" type="text/css" href="style.css">
+  	       <title class="head"> Musical instruments Albert</title>
+     </head>
+      <body class="body">
+       <div id="block-body">
+        <header>
+          <div class="logo"> 
+            <img class="music" src="music.png">
+            <p class="Albert">Albert</p>
+          </div>
+          <div class="top-menu">
+            <ul>
+              <li><a href="#"> Home </a></li>
+              <li><a href="#"> Assortiments</a></li>
+              <li><a href="#"> Recommendations </a></li>
+              <li><a href="#"> Footer </a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="intro">
+          <div class="container">
+            <div class="intro_inner">
+              <div class="intro_text">
+              <h1 class="intro_title"> Albert </h1>
+              <h2 class="intro_subtitle"> Network of sales of musical instruments. Here you will find any instrument, any model at an affordable price. You can see the characteristics of the instrument and order it in the stores of your city.  </h2>
+              </div>
+              <div class="intro_img" > 
+              <img class="img"src="albert.png"> 
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="Assortiment">
+           <div class="container1">
+            <div>
+              <h1 class="Assortiment_title" > Assortiments </h1>
+            </div>
+            <div class="Assortiment_1">
+              <div class="baraban"> 
+               <h2 class="baraban_title">Percussion </h2>
+              <a href="Something"> <img class="baraban_img" src="baraban.jpg"></a>
+              </div>
+             <div class="piano"> 
+              <h2 class="piano_title">Keybord</h2>
+              <a href="Something"><img class="piano_img" src="piano.jpg"></a>
+             </div>
+            </div>
+         <div class="Assortiment_2">
+              <div class="gutiar"> 
+               <h2 class="gutiar_title">Strings</h2>
+               <a href="Something"> <img class="gutiar_img" src="gutiar.jpg"> </a>
+              </div>
+             <div class="saxophone"> 
+              <h2 class="saxophone_title">Wind</h2>
+              <a href="Something"> <img  class="saxophone_img" src="saxophone.jpg"></a>
+             </div>
+            </div>
+         </div>
+       </div>
+       <div class="Recommendations">
+         <div class="container2">
+           <div>
+              <h1 class="Recommendations_title" > Recommendations </h1>
+            </div>
+          <div class="video">
+            <div class="video_1">
+             <iframe  width="450" height="300" src="https://www.youtube.com/embed/kkvlCPrACJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>" 
+           </div>
+           <div class="video_2">
+             <iframe width="450" height="300" src="https://www.youtube.com/embed/CCTeSjpDsIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+           </div>
+           </div>
+         </div>
+       </div>
+       <footer class="footer">
+        <div class="container3">
+         <div class="footer_text">
+          <div class="social">
+            <a href="http://vk.com" >
+              <img src="vk.png">
+            </a>
+            <a href="http://inst.com" >
+              <img src="inst.png">
+            </a>
+            <a href="http://twitter.com" >
+              <img src="twitter.png">
+            </a>
+         </div>
+           <div class="rights">
+             <h2> Alilsher&Batyl &copy;</h2>
+           </div>
+           </div>
+         </div>
+       </footer>
+     </div>
+
+      </body>
+
+   </html> 

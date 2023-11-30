@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+  <html> 
+    <head>
+  	     <meta charset="utf-8">
+  	     <meta name="viewport" content="width=device-width, initial-scale=1">
+           <link rel="stylesheet" type="text/css" href="style.css">
+             <link rel="stylesheet" type="text/css" href="fontawesome.css">
+  	       <title class="head"> Musical instruments Albert</title>
+           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     </head>
+      <body class="body">
+            <?php
+            echo "My first PHP script!";
+              ?>
+       <div id="block-body">
+        <header>
+         <div onclick="sound()" class="logo">>
+            <img class="music" src="image/music.png">
+            <p class="Albert">Albert</p>
+          </div>
+          <div class="top-menu">
+            <ul>
+              <li><a href="#" > Home </a></li>
+              <li><a href="#Assortiments" data-scroll="#Assortiments"> Assortiments</a></li>
+              <li><a href="#Recommendations" data-scroll="#Recommendations"> Recommendations </a></li>
+              <li><a href="#Footer" data-scroll=" #Footer"> Footer </a></li>
+              <li><a href="#popup" id="log" class="header_phone popup-link"> Sign in </a></li>
+            </ul>
+          </div>
+        </header>
+        <div class="intro">
+          <div class="container">
+            <div class="intro_inner">
+              <div class="intro_text">
+              <h1 class="intro_title"> Albert </h1>
+              <h2 class="intro_subtitle"> Network of sales of musical instruments. Here you will find any instrument, any model at an affordable price. You can see the characteristics of the instrument and order it in the stores of your city.  </h2>
+              </div>
+              <div class="intro_img" > 
+              <img class="img"src="image/albert.png"> 
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="Assortiment" id="Assortiments">
+           <div class="container1">
+            <div>
+              <h1 class="Assortiment_title" > Assortiments </h1>
+            </div>
+            <div class="Assortiment_1">
+              <div class="baraban"> 
+               <h2 class="baraban_title">Percussion </h2>
+              <a href="Percussion.html"> <img class="baraban_img" src="image/baraban.jpg"></a>
+              </div>
+             <div class="piano"> 
+              <h2 class="piano_title">Keybord</h2>
+              <a href="Something"><img class="piano_img" src="image/piano.jpg"></a>
+             </div>
+            </div>
+         <div class="Assortiment_2">
+              <div class="gutiar"> 
+               <h2 class="gutiar_title">Strings</h2>
+               <a href="Something"> <img class="gutiar_img" src="image/gutiar.jpg"> </a>
+              </div>
+             <div class="saxophone"> 
+              <h2 class="saxophone_title">Wind</h2>
+              <a href="something"> <img  class="saxophone_img" src="image/saxophone.jpg"></a>
+             </div>
+            </div>
+         </div>
+       </div>
+       <div class="Recommendations" id="Recommendations">
+         <div class="container2">
+           <div>
+              <h1 class="Assortiment_title" > Recommendations </h1>
+            </div>
+          <div class="video">
+            <div class="video_1">
+             <iframe  width="450" height="300" src="https://www.youtube.com/embed/kkvlCPrACJk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>" 
+           </div>
+           <div class="video_2">
+             <iframe width="450" height="300" src="https://www.youtube.com/embed/CCTeSjpDsIs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+           </div>
+           </div>
+         </div>
+       </div>
+        <p id="back-top">
+          <a href="#top"><span></span>UP</a>
+        </p>
+       <footer class="footer" id="Footer">
+        <div class="container3">
+         <div class="footer_text">
+          <div class="social">
+            <a href="http://vk.com" >
+              <img src="image/vk.png">
+            </a>
+            <a href="http://inst.com" >
+              <img src="image/inst.png">
+            </a>
+            <a href="http://twitter.com" >
+              <img src="image/twitter.png">
+            </a>
+          </div>
+           <div class="rights">
+             All rights reserved &copy;
+           </div>
+           </div>
+         </div>
+       </footer>
+     </div>
+     <div id="popup" class="popup">
+      <div class="popup_body">
+        <div  class="popup_content">
+          <a href="#" class="popup_close">X</a>
+          <img class="prof" src="image/prof.png">
+          <form class="container_form">
+            <div class="dws_input">
+              <input type="text" id="username" name="username" placeholder="username"> 
+              </div>
+              <div class="dws_input">                   
+              <input type="password" name="password" placeholder="password"> 
+              </div>         
+             <button href="#" onclick="sign_in()" class="submit" >Sign in</button>
+              <br/>
+              <a href="#">Forget password?</a>
+            </br>
+              <button class="registration" id="registration"> <a href="#popup2" class="reglink">
+                   Registration</a> 
+              </button>
+          </form>
+        </div>
+      </div>   
+     </div>
+     <div id="popup2" class="popup">
+      <div class="popup_body">
+        <div  class="popup_content">
+          <a href="#" class="popup_close">X</a>
+          <img class="prof" src="image/prof.png">
+          <form class="container_form2"  method="POST" >
+            <div class="dws_input">
+              <input type="text" id="username" name="username" placeholder="username" required> 
+              </div>
+              <div class="dws_input">
+              <input type="text" id="name" name="name" placeholder="name" required> 
+              </div>
+              <div class="dws_input">
+              <input type="text" id="surname" name="surname" placeholder="surname" required> 
+              </div>
+              <div class="dws_input">
+              <input type="text" id="phone" name="phone" placeholder="phone" required> 
+              </div>
+              <div class="dws_input">                   
+              <input type="text" name="password" placeholder="password" required> 
+              </div>
+              <div class="dws_input">                   
+              <input type="text" name="repassword" placeholder="repeat password" required> 
+              </div>       
+              <button href="#" class="registration" id="registration" type="submit">
+                   Registration
+              </button>
+            </br>
+                <button  class="submit" ><a href="#popup" class="reglink" >Sign in</a></button>
+          </form>
+        </div>
+      </div>   
+     </div>
+     <div id="scroll_top" class="scroll_top  ">
+           <img class="scroll"src="image/scroll_top.jpg">
+     </div>
+     
+<script src="index.js"> </script>
+      </body>
+
+
+   </html> 
